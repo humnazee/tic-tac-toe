@@ -13,6 +13,9 @@ Understand the rules and objectives of the game.
 Analyze the game tree: Since tic tac toe has a limited number of possible moves and outcomes, it is possible to create a game tree that shows all the possible positions and their values based on perfect play.
 
 Practice and evaluate: Like any skill, playing tic tac toe requires practice and feedback. Players can play against each other, they can also analyze their past games to identify their strengths and weaknesses, and improve their decision-making, prediction, and adaptation abilities.
+[Tic-tac-toe-Plan-Humna.png](https://postimg.cc/jDKgrW0N)
+[Tic-Tac-Toe-ideal-flowchart.png](https://postimg.cc/yDvJYG5j)
+
 
 
 
