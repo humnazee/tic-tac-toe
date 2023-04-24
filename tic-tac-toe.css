@@ -3,22 +3,25 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    
 }
 
 body {
     display: grid;
     place-items: center;
     height: 100vh;
-    background: #131419;
+    background: #c5cb1b;
+    background-image: url(https://images.unsplash.com/photo-1566055909643-a51b4271aa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    
 }
-
 #container {
     height: auto;
     width: auto;
-    background: linear-gradient(to bottom, #2b2d47 10%, #181926);
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: inset 1px 2px 0px rgb(255 255 255 / 18%), inset -2px -2px 2px rgb(0 0 0 / 65%);
+    background: linear-gradient(to bottom, #221e24 10%, rgb(126, 7, 186));
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: inset 1px 2px 0px rgba(203, 93, 213, 0.18), inset -2px -2px 2px rgba(158, 26, 228, 0.65);
 }
 
 #base {
@@ -29,7 +32,7 @@ body {
 #base h2,
 #winner h2 {
     font-size: 50px;
-    color: #cdcfdb;
+    color: #d52809;
 }
 
 #base #line {
@@ -56,15 +59,15 @@ body {
     height: 55px;
     width: 180px;
     cursor: pointer;
-    background: #29cde0;
+    background: #09d50c;
     border: none;
     outline: none;
-    color: #898aa2;
+    color: #d03c07;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 10px;
     transform: scale(1);
-    box-shadow: 2px 2px 2px rgb(255 255 255 / 26%), -2px -2px 5px rgb(0 0 0 / 87%);
+    box-shadow: 2px 2px 2px rgba(159, 9, 213, 0.26), -2px -2px 5px rgba(202, 16, 205, 0.87);
     transition: 0.5s;
 }
 
@@ -107,7 +110,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
-    box-shadow: 2px 2px 2px rgb(255 255 255 / 26%), -2px -2px 5px rgb(0 0 0 / 87%);
+    box-shadow: 2px 2px 2px rgba(234, 216, 96, 0.26), -2px -2px 5px rgba(234, 215, 95, 0.87);
 }
 
 #playPage #headerBtns button {
@@ -117,13 +120,14 @@ body {
     border: none;
     outline: none;
     background: transparent;
-    font-size: 20px;
-    color: #fff;
+    font-size: 25px;
+    color: #e83d12;
+    font-weight: bold;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.60);
+    text-shadow: 1px 1px 1px rgba(226, 228, 100, 0.6);
 }
 
 #playPage #headerBtns #O_Turn {
@@ -138,7 +142,7 @@ body {
     height: 60px;
     width: 160px;
     border-radius: 50px;
-    background: #29cde0;
+    background: #09d50c;
     z-index: 1;
     transition: 0.2s;
 }
@@ -157,10 +161,10 @@ body {
 .square {
     height: 100px;
     width: 100px;
-    box-shadow: 2px 2px 2px rgb(255 255 255 / 26%), -2px -2px 5px rgb(0 0 0 / 87%);
+    box-shadow: 2px 2px 2px rgba(241, 218, 89, 0.26), -2px -2px 5px rgba(234, 219, 101, 0.87);
     display: grid;
     place-items: center;
     cursor: pointer;
     font-size: 60px;
-    color: #29cde0;
+    color: #09d50c;
 }
