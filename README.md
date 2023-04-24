@@ -5,7 +5,7 @@ Tic-Tac -Toe (along with a lot of other games) involves looking ahead and trying
 It is a classic 2-player game where players take turns marking the spaces with their chosen symbol (either X or O) on a 3x3 grid. The first player to get three in a row, column, or diagonal wins the game. If all the spaces are filled and no one has won, the game ends in a draw.
 
 ## :page_facing_up: About
-Tic Tac Toe is a fun and engaging game that can be enjoyed by people of all ages and skill levels. Whether playing for fun or for the challenge, the game never fails to entertain
+Tic Tac Toe is a fun and engaging game that can be enjoyed by people of all ages and skill levels. Whether playing for fun or for the challenge, the game never fails to entertain. the link to play game is https://humnazee.github.io/tic-tac-toe/
 
 ## :pencil2: Planning & Problem Solving
 Understand the rules and objectives of the game.
